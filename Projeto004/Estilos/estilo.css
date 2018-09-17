@@ -12,10 +12,10 @@ li{
     background-color: #4a4a4a;
     padding: 60px 200px 60px 100px;
     margin-bottom: 1px;
-    background-image: url(../Projeto004/img/realizarTarefa.png);
+    background-image: url(img/realizarTarefa.png);
     background-repeat: no-repeat; 
     background-position: 40px center;
-    cursor: url(../Projeto004/img/setaMouse.png), default;
+    cursor: url(../img/setaMouse.png), default;
 }
 
 a{
@@ -28,18 +28,18 @@ a{
     letter-spacing: 2px;
     -webkit-font-smoothing: antialiased;
     display: block;
-    background-image: url(../Projeto004/img/marcacao.png);
+    background-image: url(../img/marcacao.png);
     background-repeat: no-repeat;
     background-position: right center;
-    cursor: url(../Projeto004/img/setaMouse.png), default;
+    cursor: url(../img/setaMouse.png), default;
 }
 
 li.concluido{
     background-color: #27ae60;
-    background-image: url(../Projeto004/img/concluido.png);
+    background-image: url(../img/concluido.png);
     background-repeat: no-repeat;
     background-position: 40px center;
-    cursor: url(../Projeto004/img/setaMouse.png), default;
+    cursor: url(../img/setaMouse.png), default;
 }
 
 li:hover{
