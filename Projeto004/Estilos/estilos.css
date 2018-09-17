@@ -1,0 +1,53 @@
+body{
+    background-color: #fff;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style-type: none;
+    background-color: #4a4a4a;
+    padding: 60px 200px 60px 100px;
+    margin-bottom: 1px;
+    background-image: url(/Projeto004/img/realizarTarefa.png);
+    background-repeat: no-repeat; 
+    background-position: 40px center;
+    cursor: url(/Projeto004/img/setaMouse.png), default;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    background-image: url(/Projeto004/img/marcacao.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: url(/Projeto004/img/setaMouse.png), default;
+}
+
+li.concluido{
+    background-color: #27ae60;
+    background-image: url(/Projeto004/img/concluido.png);
+    background-repeat: no-repeat;
+    background-position: 40px center;
+    cursor: url(/Projeto004/img/setaMouse.png), default;
+}
+
+li:hover{
+	background-color: rgb(74, 73, 74, 0.8);	
+}
+
+li.concluido:hover{
+	background-color: rgba(39, 174, 95, 0.8);  
+}
+
+

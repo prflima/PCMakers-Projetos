@@ -1,0 +1,31 @@
+/* Vamos retirar todos os espaçamentos padrão do HTML */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Vamos formatar a Tag Body */
+body{
+    background-color: #ecf0f1; /* Vamos dar uma cor de fundo ao body */
+    padding: 12px; /* Definindo um espaçamento interno ao body */
+    font-family: Arial; /* Vamos definir uma fonte */
+    font-size: 18px; /* Definindo um tamanho para nossa fonte */
+}
+/* Vamos formatar a Tag H1 e H2 */
+h1, h2{
+    text-align: center; /* Vamos colocar o texto alinhado ao centro */
+}
+/* Vamos dar uma formatação somente para o H2 */
+h2{
+    text-transform: uppercase; /* Vamos deixar todas as letras dentro da tag H2 em maíusculo */
+    color: #666; /* Definindo uma cor para as fontes dentro do h2 */
+    font-size: 16px; /* Definindo um tamanho pra fonte */
+    margin-bottom: 12px; /* Formatando a margem inferior da tag h2 */
+}
+/* Vamos formatar a Tag LI */
+li{
+    list-style-type: none; /* Vamos definir um estilo para nossa lista, com o none, estamos retirando aqueles pontinhos laterais */
+    background-color: #9b59b6; /* Vamos adicionar uma cor ao fundo da nossa LI */
+    color: #fff; /* Definindo uma cor para a letra */
+    margin-bottom: 12px; /* Formatando a margem inferior de cada LI */
+    padding: 12px; /* Vamos definir um expaçamento interno de cada LI */
+}
